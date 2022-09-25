@@ -1,0 +1,119 @@
+body {
+    font-family: lato;
+    color: #424551;
+}
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.post-header__container {
+    margin-bottom: 92px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.picture__container {
+    margin-bottom: 60px;
+}
+img {
+    max-width: 100%;
+}
+.text__container.bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.text__container.block {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+.text-padding {
+    padding-bottom: 24px;
+}
+.text__container.quot {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
+    margin-bottom: 48px;
+}   
+.quot p {    
+    padding-left: 58px;
+}
+.text__container.block-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.text__container.list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.list li{
+    padding-left: 32px;
+} 
+.text__container.block-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 92px;
+}
+.text__container.block-4{
+    margin-bottom: 50px;
+}
+.block-5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 80px;
+    border: 2px solid #424551;
+    border-radius: 50px;
+    background-color: rgba(143, 151, 158, 0.5);
+}
+.block-5:hover {
+    border: 2px solid transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('../img/like.jpg');
+    background-repeat: no-repeat;
+    background-position: 80px 15px;
+    background-size: 60px;
+}
+.text__container.block-6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 30px;
+    background-color: rgba(143, 151, 158, 0.1);;
+    background-image: url('../img/time-clock.jpg'),
+                    url('../img/pocket.jpg');
+    background-repeat: no-repeat;
+    background-position: 0% 100%, 100% 0%;
+    background-size: 200px;
+    margin-bottom: 60px;
+}
+.text__container.block-7 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background: url('../img/clock-1.jpg') 75% 0 / 100px 100px repeat-y, 
+                url('../img/clock-3.jpg') 0 50% / 100px 100px repeat-x,
+                url('../img/clock-2.jpg') 25% 25%/ 100px 100px repeat-y;
+    margin-bottom: 60px;                
+}
+.text__container.footer {
+    font-weight: 700;
+    font-size: 26px;
+    padding: 40px;    
+    text-align: center;
+}
